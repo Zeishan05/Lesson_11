@@ -1,0 +1,299 @@
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+	padding: 50px;
+}
+
+body {
+}
+
+p {
+	font-family: serif;
+	font-size: 25px;
+}
+
+.page {
+}
+
+.section {
+	background-color: #eee;
+	padding: 50px;
+	margin-top: 50px;
+	height: 800px;
+}
+
+.items {
+}
+
+.items__item {
+	padding: 15px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	position: relative;
+}
+
+.items__item--bg-1 {
+	background-color: #794f45;
+}
+.items__item--bg-2 {
+	background-color: #77608d;
+	bottom: 30px;
+	right: 20px;
+}
+.items__item--bg-3 {
+	background-color: #7A956B;
+	bottom: 70px;
+}
+.section {
+	background-color: #eee;
+	padding: 50px;
+	position: relative;
+	margin-bottom: 50px;
+}
+.items-two {
+}
+.items-two__item {
+	padding: 15px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+}
+.items-two__item--bg-4 {
+	background-color: #794f45;
+}
+.items-two__item--bg-5 {
+	background-color: #77608d;
+	position: absolute;
+	top: 10px;
+	left: 70px;
+	width: 100%;
+}
+.items-two__item--bg-6 {
+	background-color: #7A956B;
+}
+.items-tree {
+
+}
+.items-tree__item {
+	padding: 15px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+}
+.items-tree__item--bg-7 {
+	background-color: #794f45;
+}
+.items-tree__item--bg-8 {
+	background-color: #77608d;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+.items-tree__item--bg-9 {
+	background-color: #7A956B;
+}
+.section--height {
+	height: 1000px;
+}
+.items-four {
+}
+.items-four__item {
+	padding: 15px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+}
+.items-four__item--bg-10 {
+	background-color: #794f45;
+}
+.items-four__item--bg-11 {
+	background-color: #77608d;
+	position: relative;
+	z-index: 200;
+}
+.items-four__item--bg-12 {
+	background-color: #7A956B;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding: 15px;
+	background-color: yellowgreen;
+	z-index: 100;
+}
+.header__container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.menu {
+	font-size: 0;
+}
+.menu__item {
+	position: relative;
+	display: inline-block;
+}
+.menu__item:not(:last-child){
+	margin-right: 10px;
+}
+.menu__item:hover .sub-menu{
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+.menu__link {
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 0px;
+}
+.sub-menu {
+	background-color: #77608d;
+	padding: 15px;
+	position: absolute;
+	min-width: 180px;
+	top: 130%;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+}
+.sub-menu__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.sub-menu__link {
+	font-size: 16px;
+	color: #fff;
+}
+.items-five {
+}
+.items-five__item {
+	padding: 15px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	position: sticky;
+	top: 0px;
+}
+.items-five__item--bg-13 {
+	background-color: #794f45;
+}
+.items-five__item--bg-14 {
+	background-color: #77608d;
+}
+.items-five__item--bg-15 {
+	background-color: #7A956B;
+}
+.car__container {
+	background-color: rgb(150, 115, 17);
+	width: 1000px;
+	height: 500px;
+	position: relative;
+}
+.car__icno {
+	position: absolute;
+}
+.car__icono--1 {
+	top: 0;
+	left: 0;
+}
+.car__icono--2 {
+	top: 0;
+	left: 172px;
+}
+.car__icono--3 {
+	top: 0;
+	left: 344px;
+}
+.car__icono--4 {
+	top: 0;
+	left: 516px;
+}
+.car__icono--5 {
+	top: 0;
+	left: 688px;
+}
+.car__icono--6 {
+	top: 75px;
+	left: 0px;
+}
+.car__icono--7 {
+	top: 75px;
+	left: 172px;
+}
+.car__icono--8 {
+	top: 75px;
+	left: 344px;
+}
+.car__icono--9 {
+	top: 75px;
+	left: 516px;
+}
+.car__icono--10 {
+	top: 75px;
+	left: 688px;
+}
+.car__icono--11 {
+	top: 150px;
+	left: 0px;
+}
+.car__icono--12 {
+	top: 150px;
+	left: 172px;
+}
+.car__icono--13 {
+	top: 150px;
+	left: 344px;
+}
+.car__icono--14 {
+	top: 150px;
+	left: 516px;
+}
+.car__icono--15 {
+	top: 150px;
+	left: 688px;
+}
+.car__icono--16 {
+	top: 225px;
+	left: 0px;
+}
+.car__icono--17 {
+	top: 225px;
+	left: 172px;
+}
+.car__icono--18 {
+	top: 225px;
+	left: 344px;
+}
+.car__icono--19 {
+	top: 225px;
+	left: 516px;
+}
+.car__icono--20 {
+	top: 225px;
+	left: 688px;
+}
+.car__icono--21 {
+	top: 300px;
+	left: 0px;
+}
+.car__icono--22 {
+	top: 300px;
+	left: 172px;
+}
+.car__icono--23 {
+	top: 300px;
+	left: 344px;
+}
+.car__icono--24 {
+	top: 300px;
+	left: 516px;
+}
+.car__icono--25 {
+	top: 300px;
+	left: 688px;
+}
